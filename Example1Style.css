@@ -1,0 +1,32 @@
+.cat {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+    color: #FFF;
+  
+  }
+  .dog {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+    color: #000;
+  }
+  .dragon {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+    color: #009933;
+  }
+
+  /* This example is not DRY because it would be better if we write a class for the common properties, like follow: */
+  .commonClass {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+  }
+
+  .cat {
+    color: #FFF;
+  }
+  .dog {
+    color: #000;
+  }
+  .dragon {
+    color: #009933;
+  }

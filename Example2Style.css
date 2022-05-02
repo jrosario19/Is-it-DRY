@@ -1,0 +1,15 @@
+.greetings {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .greetings.english {
+    background-color: #000;
+    color: #FFF;
+  }
+  .greetings.spanish {
+    background-color: #FFF;
+    color: #000;
+  }
+
+  /* Answer: This code is DRY because it uses a class for each element and uses distinct values for it. */ 
